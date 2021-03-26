@@ -9,14 +9,14 @@
 </head>
 <body>
     <h1>Covid-19 Awareness Form</h1>
-    <form action="">
-        <label for="name" class="display">Your Name:</label>
+    <form action="mailto:xyz@progradjunior.com?Subject=My Best Friend Application" method="POST" enctype="text/plain">
+        <label for="name" class="display">1.Your Name:</label>
         <input type="text" id="name">
 
-        <label for="age" class="display">Your Age:</label>
+        <label for="age" class="display">2.Your Age:</label>
         <input type="number" id="age">
 
-        <label for="hands" class="display">Is hand hygiene important in preventing the spread of the virus?</label>
+        <label for="hands" class="display">3.Is hand hygiene important in preventing the spread of the virus?</label>
         <input type="radio" id="yes" value="yes">
         <label for="yes" class="hands">Yes</label>
 
@@ -26,7 +26,7 @@
         <input type="radio" id="unsure" value="unsure">
         <label for="unsure" class="hands">Unsure</label>
 
-        <label for="spread" class="display">Would wearing gloves help prevent the spread of the virus?</label>
+        <label for="spread" class="display">4.Would wearing gloves help prevent the spread of the virus?</label>
         <input type="radio" id="yes" value="yes">
         <label for="yes" class="spread">Yes</label>
 
@@ -36,7 +36,7 @@
         <input type="radio" id="maybe" value="maybe">
         <label for="maybe" class="spread">Maybe</label>
 
-        <label for="mask" class="display">Does wearing a mask help prevent the spread of the virus?</label>
+        <label for="mask" class="display">5.Does wearing a mask help prevent the spread of the virus?</label>
         <input type="radio" id="yes" value="yes">
         <label for="yes" class="mask">Yes</label>
 
@@ -46,7 +46,7 @@
         <input type="radio" id="maybe" value="maybe">
         <label for="maybe" class="mask">Maybe</label>
 
-        <label for="symptoms" class="display">What are the main symptoms of the virus? (Check all that apply)</label>
+        <label for="symptoms" class="display">6.What are the main symptoms of the virus? (Check all that apply)</label>
         <input type="checkbox" id="cold">
         <label for="clod" class="symptoms">Cold</label>  
 
@@ -65,6 +65,97 @@
         <input type="checkbox" id="breath">
         <label for="breath" class="symptoms">Shrotness of breath</label>
 
+        <label for="prevent" class="display">7.What's more important for preventing corona virus infection?</label>
+        <input type="radio" id="washing">
+        <label for="washing" class="prevent">Frequent hand washing</label>
+
+        <input type="radio" id="wearing">
+        <label for="wearing" class="prevent">Wearing the mask when you go outside</label>
+
+        <input type="radio" id="both">
+        <label for="both" class="prevent">Both A an B</label>
+
+        <input type="radio" id="none">
+        <label for="none" class="prevent">None of the above</label>
+
+        <label for="incubation" class="display">8.What is incubation period for Corona Virus disease?</label>
+        <input type="radio" id="seven">
+        <label for="seven" class="incubation">1-7 Days</label>
+
+        <input type="radio" id="ten">
+        <label for="ten" class="incubation">1-10 Days</label>
+
+        <input type="radio" id="fourteen">
+        <label for="fourteen" class="incubation">1-14 Days</label>
+
+        <input type="radio" id="twentyone">
+        <label for="twentyone" class="incubation">1-21 Days</label>
+
+        <label for="sample" class="display">9.For testing of COVID-19 which is used as a sample?</label>
+        <input type="radio" id="blood">
+        <label for="blood" class="sample">Blood</label>
+
+        <input type="radio" id="urine">
+        <label for="urine" class="sample">Urine</label>
+ 
+        <input type="radio" id="swab">
+        <label for="swab" class="sample">Swab</label>
+
+        <input type="radio" id="no">
+        <label for="no" class="sample">None</label>
+
+        <label for="risk" class="display">10.Who is at the heighest risk of devloping severe Covid-19 disease?</label>
+        <input type="radio" id="children">
+        <label for="children" class="risk">Children</label>
+
+        <input type="radio" id="over60">
+        <label for="over60" class="risk">People over 60 years of age</label>
+
+        <input type="radio" id="condition">
+        <label for="condition" class="risk">Those with exixting medical condition</label>
+
+        <input type="radio" id="all">
+        <label for="all" class="risk">All of them</label>
+
+        <label for="spread" class="display">11.Covid-19 disease is spread by?</label>
+        <input type="radio" id="air">
+        <label for="air" class="spread">Air</label>
+
+        <input type="radio" id="water">
+        <label for="water" class="spread">Water</label>
+
+        <input type="radio" id="contact">
+        <label for="contact" class="spread">Contact</label>
+
+        <input type="radio" id="None">
+        <label for="None" class="spread">None of the above</label>
+
+        <label for="notdo" class="display">12.Things you should not do</label>
+        <input type="radio" id="same">
+        <label for="same" class="notdo">Wearing same mask multipal times</label>
+
+        <input type="radio" id="without">
+        <label for="without" class="notdo">Taking antibiotics without doctor prescription</label>
+
+        <input type="radio" id="smoking">
+        <label for="smoking" class="notdo">Smoking</label>
+
+        <input type="radio" id="allof">
+        <label for="allof" class="notdo">All of the above</label>
+
+        <label for="virology" class="display">13.Where is national institute of virology located?</label>
+        <input type="radio" id="mumbai">
+        <label for="mumbai" class="virology">Mumbai</label>
+
+        <input type="radio" id="pune">
+        <label for="pune" class="virology">Pune</label>
+
+        <input type="radio" id="delhi">
+        <label for="delhi" class="virology">Delhi</label>
+
+        <input type="radio" id="bangalore">
+        <label for="bangalore" class="virology">Bangalore</label>
+        <br><br>
         <input type="submit" name="submit" id="button">
         
     </form>
