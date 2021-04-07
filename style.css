@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
 body{
-    width: 100vw;
-    height: 100vh;
-    background-image: url("./assets/photo-1599277062739-e1878f97c79a.jpg");
-    background-size: 1000% 100%;
+    font-family: 'Inconsolata', monospace;
+    background-repeat: no-repeat;
+    background-image: url("./assets/corona.jpg");
+background-size: cover;
     text-align: center;
 }
+
 form{
     position: absolute;
     background-color: lightblue;
@@ -14,14 +17,17 @@ form{
     left: 250px;
     top: 100px;
 }
+
 h1{
     font-size: 50px;
     color: white;
 }
+
 label{
     font-size: 20px;
     padding: 20px;
 }
+
 #button{
     width: 100px;
     height: 50px;
@@ -31,8 +37,12 @@ label{
     font-weight: bold;
     font-size: 20px;
 }
+
 .display{
     display: block;
     font-weight: bold;
 }
 
+#info{
+    font-weight: bold;
+}
